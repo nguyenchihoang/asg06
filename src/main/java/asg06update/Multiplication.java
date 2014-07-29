@@ -12,7 +12,7 @@ public class Multiplication extends BinaryExpression {
 	}
 	public String toString() {
 		// TODO Auto-generated method stub
-		return left.toString()*right.toString();
+		return String.format("% s, %s ",left, right);
 	}
 
 }
